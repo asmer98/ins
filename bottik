@@ -12,8 +12,8 @@ import telebot
 import json
 import threading
 from concurrent.futures import ThreadPoolExecutor
-iid='110484930'
-tok='7834730402:AAFb9FexPgi-42oGn28YbDOkzYOYakFeF9s'
+iid='6539489983'
+tok='7407667965:AAEuEGnytifHOmlnQHWE6pREbJBNptgEQjI'
 os.system('clear')
 ge,be,gt,bt,hit=0,0,0,0,0
 
